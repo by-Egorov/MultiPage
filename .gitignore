@@ -1,3 +1,5 @@
 /.idea
 prepros.config
 .bowerrc
+/.vscode
+/libs
