@@ -654,7 +654,6 @@ hr {
 
 .btn-months {
   width: 50%;
-  min-height: 54px;
   background-color: transparent;
 }
 .btn-months.active {
@@ -664,7 +663,6 @@ hr {
 
 .btn-months-choise {
   width: 50%;
-  min-height: 54px;
   background-color: transparent;
 }
 .btn-months-choise.active {
@@ -687,7 +685,8 @@ hr {
   color: #1749b3;
 }
 .chose-plan__button-months {
-  width: 360px;
+  width: 359px;
+  height: 61px;
   border: 1px solid #1749b3;
   border-radius: 12px;
   display: flex;

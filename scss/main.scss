@@ -653,9 +653,6 @@ hr {
 
 .section {
 	margin-top: 84px;
-	// height: 100vh;
-	// padding: 84px 15px;
-	// text-align: center;
 
 	&__title {
 		font-size: 36px;
@@ -665,7 +662,6 @@ hr {
 
 .btn-months {
 	width: 50%;
-	min-height: 54px;
 	background-color: transparent;
 
 	&.active {
@@ -676,7 +672,6 @@ hr {
 
 .btn-months-choise {
 	width: 50%;
-	min-height: 54px;
 	background-color: transparent;
 
 	&.active {
@@ -703,7 +698,8 @@ hr {
 	}
 
 	&__button-months {
-		width: 360px;
+		width: 359px;
+		height: 61px;
 		border: 1px solid #1749b3;
 		border-radius: 12px;
 		display: flex;
@@ -722,9 +718,6 @@ hr {
 	display: block;
 }
 .chose-plan-card {
-	// margin-top: 48px;
-	// display: flex;
-	// gap: 16px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
