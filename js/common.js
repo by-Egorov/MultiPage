@@ -8,6 +8,9 @@ const sixMonthBtn = document.querySelector('.btn-months')
 const twelveMonthsBtn = document.querySelector('.btn-months-choise')
 const planCard = document.querySelector('.chose-plan-card')
 
+
+
+
 // Menu CLick
 menuLink.addEventListener('click', menuClick)
 
@@ -68,4 +71,5 @@ function sixMonth() {
 	}
 }
 // Monts btn
+
 

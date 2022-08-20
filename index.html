@@ -21,7 +21,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Inter:regular,500,600,800" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800" rel="stylesheet" />
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/media.css">
+
 </head>
 
 <body>
@@ -36,7 +37,11 @@
 						</div>
 						<div class="header__logo-text">DiscountsOnServices</div>
 					</div>
+					
 					<div class="header__menu menu">
+						<div class="header__burger">
+						<span></span>
+					</div>
 						<nav class="menu__body">
 							<ul class="menu__list">
 								<li class="menu__item"><a href="#" class="menu__link">Subscription</a>
@@ -104,7 +109,7 @@
 							<div class="start__button">
 								<button type="button" class="start__btn">Start using</button>
 							</div>
-	
+
 						</div>
 						<div class="start__img">
 							<img src="images/002_1024.jpg" alt="image">
@@ -113,7 +118,7 @@
 				</div>
 			</div>
 		</section>
-	
+
 		<section class="subscription">
 			<div class="container">
 				<div class="subscription__inner">
@@ -166,7 +171,7 @@
 								<img src="images/image%205.png" alt="netflix">
 							</div>
 						</div>
-	
+
 					</div>
 				</div>
 			</div>
@@ -177,31 +182,25 @@
 					<div class="works__title">How it works?</div>
 					<div class="works__card">
 						<div class="works__item">
+							<div class="works__content-title">Step 1</div>
 							<div class="works__icon">
-								<img src="images/works1.png" alt="works">
+								<img src="./images/works1.svg" alt="works">
 							</div>
-							<div class="works__content">
-								<div class="works__content-title">Step 1</div>
-								<div class="works__content-text">Enter your account information</div>
-							</div>
+							<div class="works__content-text">Enter your account information</div>
 						</div>
 						<div class="works__item">
+							<div class="works__content-title">Step 2</div>
 							<div class="works__icon">
-								<img src="images/works2.png" alt="works">
+								<img src="./images/works2.svg" alt="works">
 							</div>
-							<div class="works__content">
-								<div class="works__content-title">Step 2</div>
-								<div class="works__content-text">Select the desired subscription and plan</div>
-							</div>
+							<div class="works__content-text">Select the desired subscription and plan</div>
 						</div>
 						<div class="works__item">
+							<div class="works__content-title">Step 3</div>
 							<div class="works__icon">
-								<img src="images/works3.png" alt="works">
+								<img src="./images/works3.svg" alt="works">
 							</div>
-							<div class="works__content">
-								<div class="works__content-title">Step 3</div>
-								<div class="works__content-text">Pay your bill with PayPal</div>
-							</div>
+							<div class="works__content-text">Pay your bill <br>with PayPal</div>
 						</div>
 					</div>
 				</div>
@@ -215,7 +214,8 @@
 					</div>
 					<div class="friends__link">
 						<div class="friends__link-title">Click on the link</div>
-						<div class="friends__link-copy"><a href="https://t.me/DiscountsOnServices_bot?start=343964809">Discounts
+						<div class="friends__link-copy"><a
+								href="https://t.me/DiscountsOnServices_bot?start=343964809">Discounts
 								On Services</a><span class="friends__link-svg"><svg width="24" height="24"
 									xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
 									<path d="M17 7h6v16h-16v-6h-6v-16h16v6zm5 1h-14v14h14v-14zm-6-1v-5h-14v14h5v-9h9z" />
@@ -329,7 +329,7 @@
 					</div>
 				</div>
 			</div>
-	
+
 		</section>
 
 		<footer class="footer">
@@ -414,6 +414,7 @@
 
 	<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
 	<script src="js/common.js" defer></script>
+	<script src="js/burger.js"></script>
 </body>
 
 </html>
