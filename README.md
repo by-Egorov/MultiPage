@@ -3,4 +3,4 @@
 Ссылка ↓
 <br>
 
-<a href="by-Egorov/Preview" target="_blank">MuktiPage</a>
+<a href="by-Egorov/Preview" target="_blank">MultiPage</a>
